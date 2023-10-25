@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "Calculadora-no-prompt"
 
 int main(int argc, char *argv[]) {
 
@@ -34,12 +35,14 @@ switch (opcao){
 		}
 		
 		printf ("divisao: %d\n", num1/ num2);
-		break; 
-               }
+		break
+			; 
+              return 0;
+                  }
 		
-		return 0;
+		
 
-               }
+	
 
 
 
